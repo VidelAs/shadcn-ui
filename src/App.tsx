@@ -2,7 +2,6 @@ import "./globals.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import About  from "./pages/About";
-import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Learn from "./pages/Learn";

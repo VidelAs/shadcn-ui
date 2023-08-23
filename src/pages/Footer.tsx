@@ -3,7 +3,7 @@ const Footer = () => {
     <div >
         <hr className="mt-8"/>
         <p>
-        hjhfghgf
+        FOOTER
         </p>
     </div>
   );
