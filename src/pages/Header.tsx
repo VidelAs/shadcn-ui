@@ -1,4 +1,5 @@
 import logo from "/src/assets/patitos.png"
+import { Link } from "react-router-dom";
 interface MenuItem {
   label: string;
   link: string;
@@ -32,13 +33,13 @@ const Header = () => {
       <div className="ml-4 mr-10">
         <nav className="flex space-x-7 ">
           {menuItems.map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={item.link}
+              to={item.link}
               className="text-white hover:text-[#DA291C] transition duration-300 ease-in-out "
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
       </div>
