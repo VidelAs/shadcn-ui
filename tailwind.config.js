@@ -17,7 +17,11 @@ module.exports = {
     },
     extend: {
       spacing:{
-        '97': '30rem'
+        '85': '27rem',
+        '97': '35rem',
+        '90': '30rem',
+        '98': '39rem'
+
       },
       colors: {
         border: "hsl(var(--border))",
