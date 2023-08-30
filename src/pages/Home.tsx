@@ -1,9 +1,25 @@
-import React from 'react'
-
+import Carousel from "framer-motion-carousel";
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="md:mb-24">
+      <div className="md:w-full md:h-98 ">
+        <Carousel>
+          {[1, 2, 3,4,5,6].map((item, i) => (
+            <img
+              draggable="false"
+              src={`./src/assets/Home/${item}.png`}
+              key={i}
+              alt=""
+              className="md:w-full md:h-98"
+            />
+          ))}
+        </Carousel>
+       <h1 className="text-4xl text-center font-black text-[#DA291C] mb-10 mt-10">
+          Costa Rica
+        </h1>
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

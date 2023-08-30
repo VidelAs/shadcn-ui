@@ -13,14 +13,15 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
-      },
+            },
     },
     extend: {
       spacing:{
         '85': '27rem',
         '97': '35rem',
         '90': '30rem',
-        '98': '39rem'
+        '98': '39rem',
+        '99': '43rem',
 
       },
       colors: {

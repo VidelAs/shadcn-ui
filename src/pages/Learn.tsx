@@ -30,7 +30,7 @@ const Learn = () => {
   const [branchModalOpen, setBranchModalOpen] = useState(false);
 
   return (
-    <div>
+    <div className="mb-36">
       <h1 className="text-4xl text-center font-black text-[#DA291C] mb-10 mt-10">
         Learn
       </h1>

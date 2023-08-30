@@ -14,7 +14,7 @@ import avatarVidel from "/src/assets/videl-image.png";
 import logoGitHub from "/src/assets/github.png";
 const About = () => {
   return (
-    <div>
+    <div className="mb-36">
       <h1 className="text-4xl text-center font-black text-[#DA291C] mb-10 mt-10">
         About
       </h1>
