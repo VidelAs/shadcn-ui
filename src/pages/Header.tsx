@@ -11,23 +11,20 @@ const menuItems: MenuItem[] = [
     link: "/",
   },
   {
-    label: "Blog",
-    link: "/blog",
+    label: "Learn",
+    link: "/learn",
   },
   {
     label: "About",
     link: "/about",
   },
-  {
-    label: "Learn",
-    link: "/learn",
-  },
+  
 ];
 
 const Header = () => {
   return (
-    <div className="bg-[#001489] flex items-center w-full h-36 font-black text-2xl">
-      <div className="flex lg:flex-1 h-32 w-24 ms-8">
+    <div className="bg-[#001489] flex items-center md:w-full md:h-36 font-black md:text-2xl sm:w-full sm:h-28">
+      <div className="flex flex-1 md:h-32 md:w-24 md:ms-8 sm:h-24 sm:w-20">
         <img src={logo} alt="Logo" />
       </div>
       <div className="ml-4 mr-10">

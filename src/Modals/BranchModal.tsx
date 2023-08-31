@@ -1,5 +1,3 @@
-import React from "react";
-
 const BranchModal = () => {
   return (
     <div className="items-center">

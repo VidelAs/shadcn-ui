@@ -1,16 +1,16 @@
 import Carousel from "framer-motion-carousel";
 const Home = () => {
   return (
-    <div className="md:mb-24">
-      <div className="md:w-full md:h-98 ">
-        <Carousel>
+    <div className="mb-24">
+      <div className="md:w-full md:h-98 sm:w-full sm:h-90">
+        <Carousel autoPlay={false} interval={5}  loop={true} >
           {[1, 2, 3,4,5,6].map((item, i) => (
             <img
               draggable="false"
               src={`./src/assets/Home/${item}.png`}
               key={i}
               alt=""
-              className="md:w-full md:h-98"
+              className="md:w-full md:h-98 sm:w-full sm:h-85"
             />
           ))}
         </Carousel>

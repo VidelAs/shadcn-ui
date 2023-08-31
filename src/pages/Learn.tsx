@@ -31,11 +31,11 @@ const Learn = () => {
 
   return (
     <div className="mb-36">
-      <h1 className="text-4xl text-center font-black text-[#DA291C] mb-10 mt-10">
+      <h1 className="md:text-4xl md:text-center md:font-black md:text-[#DA291C] md:mb-10 md:mt-10  sm:text-2xl sm:text-center sm:font-black sm:text-[#DA291C]">
         Learn
       </h1>
-      <div className="grid grid-cols-3 gap-3 place-items-center mt-8">
-        <Card className="w-56 h-56 text-center">
+      <div className="grid md:grid-cols-3 gap-3 place-items-center mt-8 sm:grid-cols-2">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>Generating a new SSH key</CardTitle>
           </CardHeader>
@@ -44,15 +44,15 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
               variant={"primary"}
               onClick={() => setKeyModalOpen(true)}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
             >
               View
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-56 h-56 text-center">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>Git Bash configuration</CardTitle>
           </CardHeader>
@@ -61,15 +61,15 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
               variant={"primary"}
               onClick={() => setTerminalModalOpen(true)}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
             >
               View
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-56 h-56 text-center">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>Install Tailwind CSS</CardTitle>
           </CardHeader>
@@ -78,15 +78,15 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
               variant={"primary"}
               onClick={() => setTailwindModalOpen(true)}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
             >
               View
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-56 h-56 text-center">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>Extensions for Visual Studio Code</CardTitle>{" "}
             <CardDescription></CardDescription>
@@ -96,15 +96,15 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
               variant={"primary"}
               onClick={() => setVisualModalOpen(true)}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
             >
               View
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-56 h-56 text-center">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>SQL SERVER</CardTitle>{" "}
             <CardDescription></CardDescription>
@@ -114,7 +114,7 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
               variant={"primary"}
               onClick={() => setSqlModalOpen(true)}
             >
@@ -122,7 +122,7 @@ const Learn = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-56 h-56 text-center">
+        <Card className="md:w-56 md:h-56 text-center sm:w-60 sm:h-60">
           <CardHeader>
             <CardTitle>Pull requests</CardTitle>{" "}
             <CardDescription></CardDescription>
@@ -132,7 +132,7 @@ const Learn = () => {
           </CardContent>
           <CardFooter>
             <Button
-              size={"lg"}
+              className="md:w-28 md:h-10 sm:w-24 sm:h-9"
               variant={"primary"}
               onClick={() => setBranchModalOpen(true)}
             >

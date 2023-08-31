@@ -1,5 +1,3 @@
-import React from "react";
-
 const SqlModal = () => {
   return (
     <div className="items-center">
