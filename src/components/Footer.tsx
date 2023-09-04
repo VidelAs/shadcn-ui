@@ -1,5 +1,5 @@
-import Github from "/src/assets/github.png";
-import Youtube from "/src/assets/youtube.png";
+import Github from "/public/assets/github.png";
+import Youtube from "/public/assets/youtube.png";
 const Footer = () => {
   return (
    <footer className="w-full h-16 text-center">

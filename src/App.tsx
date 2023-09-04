@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import About  from "./pages/About";
 import Home from "./pages/Home";
 import Learn from "./pages/Learn";
+import Patitos from "./pages/Patitos";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="learn" element={<Learn/>}/>
           <Route path="about" element={<About/>}/>
+          <Route path="patitos" element={<Patitos/>}/>
         </Route>
       </Routes>
     </Router>
