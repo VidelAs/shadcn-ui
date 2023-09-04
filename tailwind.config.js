@@ -11,18 +11,27 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-            },
+      
     },
+    screens: {
+        'xxs': '320px',
+        'xs': '450px',
+        'sm': '640px',
+        'md': '768px',
+        "2xl": "1400px",   
+      },
     extend: {
       spacing:{
+        '83':'24rem',
+        '84':'26rem',
         '85': '27rem',
-        '97': '35rem',
         '90': '30rem',
+        '95': '33rem',
+        '97': '35rem',   
         '98': '39rem',
         '99': '43rem',
-
+        '100': '51rem',
+        '101': '55rem',
       },
       colors: {
         border: "hsl(var(--border))",

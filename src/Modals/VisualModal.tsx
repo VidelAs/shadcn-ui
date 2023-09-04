@@ -1,5 +1,3 @@
-import React from 'react'
-
 const VisualModal = () => {
   return (
     <div className="items-center">
